@@ -5,7 +5,7 @@ An entrypoint for migverify
 import click
 import logging
 
-from migverify import Infile
+from .migverify import Infile
 
 
 @click.command()
