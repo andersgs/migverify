@@ -107,6 +107,7 @@ fuefLoc2 TCGACTAGATATGCAGCAAATACGAGGGGCATGCGTCCCAGATGTG
         self.obj.handle = self.infile_good
         self.obj.n_loci = 2
         self.obj.n_pop = 2
+        self.obj.loci_sizes = [50, 46]
         self.obj.parse_populations()
         self.assertEqual(5, len(self.obj.loci['Loc0']['seq']), msg=f'Failed test that length of number of haplotypes is 5 for first locus')
         self.assertEqual(4, len(self.obj.loci['Loc1']['seq']), msg=f'Failed test that length of number of haplotypes is 4 for second locus')
@@ -124,6 +125,7 @@ fuefLoc2 TCGACTAGATATGCAGCAAATACGAGGGGCATGCGTCCCAGATGTG
         self.obj.handle = self.infile_first_locus_mono
         self.obj.n_loci = 2
         self.obj.n_pop = 2
+        self.obj.loci_sizes = [50, 46]
         self.obj.parse_populations()
         self.assertEqual(1, len(self.obj.loci['Loc0']['seq']), msg = f'Failed test that length of number of haplotypes is 5 for first locus')
         self.assertEqual(4, len(self.obj.loci['Loc1']['seq']), msg = f'Failed test that length of number of haplotypes is 4 for second locus')
@@ -150,6 +152,7 @@ fuefLoc2 TCGACTAGATATGCAGCAAATACGAGGGGCATGCGTCCCAGATGTG
         self.obj.handle = self.infile_first_locus_mono
         self.obj.n_loci = 2
         self.obj.n_pop = 2
+        self.obj.loci_sizes = [50, 46]
         self.obj.parse_populations()
         self.obj.exclude_loci()
         self.assertFalse(self.obj.loci['Loc0']['include'], msg='FAILED: Locus 0 is monomorphic, and should NOT be included.')
