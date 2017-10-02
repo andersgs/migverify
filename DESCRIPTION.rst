@@ -1,6 +1,9 @@
 MigVerify: Test and clean up Migrate-N infile with many sequence loci.
 ======================================================================
 
+.. image:: https://travis-ci.org/andersgs/migverify.svg?branch=master
+    :target: https://travis-ci.org/andersgs/migverify
+
 INTRODUCTION
 ------------
 
@@ -65,3 +68,6 @@ QUESTIONS or ISSUES
 -------------------
 
 `GitHub Issues <https://github.com/andersgs/migverify/issues>`__
+
+.. |Build Status| image:: https://travis-ci.org/andersgs/migverify.svg?branch=master
+   :target: https://travis-ci.org/andersgs/migverify

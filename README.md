@@ -1,5 +1,7 @@
 # MigVerify: Test and clean up Migrate-N infile with many sequence loci.
 
+[![Build Status](https://travis-ci.org/andersgs/migverify.svg?branch=master)](https://travis-ci.org/andersgs/migverify)
+
 ## INTRODUCTION
 
 In our experience, Migrate-N does not work well with monomorphic loci. `migverify`
