@@ -66,4 +66,4 @@ QUESTIONS or ISSUES
 
 ::
 
-    [GitHub Issues](https://www.github.com/andersgs/migverify/issues)
+    [GitHub Issues](https://github.com/andersgs/migverify/issues)
