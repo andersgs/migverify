@@ -47,4 +47,4 @@ You can checkout the help with:
 
 ## QUESTIONS or ISSUES
 
-    [GitHub Issues](https://github.com/andersgs/migverify/issues)
+[GitHub Issues](https://github.com/andersgs/migverify/issues)

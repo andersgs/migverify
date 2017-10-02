@@ -64,6 +64,4 @@ Filter out loci with samples with more than 20% missing data
 QUESTIONS or ISSUES
 -------------------
 
-::
-
-    [GitHub Issues](https://github.com/andersgs/migverify/issues)
+`GitHub Issues <https://github.com/andersgs/migverify/issues>`__
